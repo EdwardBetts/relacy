@@ -214,7 +214,7 @@ private:
             {
                 history_t const& rec = var.history_[index % atomic_history_size];
                 if (false == rec.busy_)
-                    return (unsigned)-1; // access to unitialized var
+                    return (unsigned)-1; // access to uninitialized var
 
                 history_t const& prev = var.history_[(index - 1) % atomic_history_size];
                 if (prev.busy_ && prev.first_seen_order_[index_] <= last_yield_)

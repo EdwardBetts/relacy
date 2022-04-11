@@ -51,7 +51,7 @@ public:
 
     ~event_data_impl()
     {
-        //!!! detect destuction with waiters
+        //!!! detect destruction with waiters
     }
 
 private:

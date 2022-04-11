@@ -11,7 +11,7 @@ ____________________________________________________________________
 #   endif
 /*===========================================================*/
 
-/* Very Simple x86 Atomic Operations API & Implmentation
+/* Very Simple x86 Atomic Operations API & Implementation
 _____________________________________________________________*/
 typedef __int32 atomicword;
 typedef atomicword volatile* const atomicword_pthis;
@@ -110,7 +110,7 @@ x86_XCHGWORD(
 #define XADDWORD x86_XADDWORD
 #define DWCASPTR x86_DWCASPTR
 
-/* Proxy-Collector API & Implmentation (Revisited)  ;^)
+/* Proxy-Collector API & Implementation (Revisited)  ;^)
    Inventor: Chris M. Thomasson
 _____________________________________________________________*/
 #include <stddef.h>
